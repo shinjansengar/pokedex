@@ -89,8 +89,6 @@ const App = () => {
         <span onClick={() => handlePagination(currentPage + 1)}>{currentPage + 1}</span>
         <span onClick={() => handlePagination(currentPage + 2)}>{currentPage + 2}</span>
         <span onClick={() => handlePagination(currentPage + 3)}>{currentPage + 3}</span>
-        <span onClick={() => handlePagination(currentPage + 4)}>{currentPage + 4}</span>
-        <span onClick={() => handlePagination(currentPage + 5)}>{currentPage + 5}</span>
         <span onClick={() => handlePagination(currentPage + 1)}>&raquo;</span>
       </div>
       <Modal
