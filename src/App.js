@@ -100,13 +100,13 @@ const App = () => {
       >
         {isLoading ? <h1>Loading...</h1>
           :
-          <div class='pokemon-details-wrapper'>
+          <div className='pokemon-details-wrapper'>
             <h2>{pokemonDetails.name.toLocaleUpperCase()}</h2>
             <img src={pokemonDetails.sprites.front_default} />
-            <div class='pokemon-info-wrapper'>
+            <div className='pokemon-info-wrapper'>
               <div>
                 <p>Abilities</p>
-                <ul class='pokemon-abilities'>
+                <ul className='pokemon-abilities'>
                   {pokemonDetails.abilities.map(item => {
                     return (
                       <li key={item.ability.name}>
@@ -116,7 +116,7 @@ const App = () => {
                   })}
                 </ul>
               </div>
-              <div class='pokemon-stats'>
+              <div className='pokemon-stats'>
                 <p>Stats</p>
                 {pokemonDetails.stats.map(item => {
                   return (
