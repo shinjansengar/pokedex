@@ -102,7 +102,7 @@ const App = () => {
           :
           <div className='pokemon-details-wrapper'>
             <h2>{pokemonDetails.name.toLocaleUpperCase()}</h2>
-            <img src={pokemonDetails.sprites.front_default} alt={pokemonDetail.name}/>
+            <img src={pokemonDetails.sprites.front_default} alt={pokemonDetails.name}/>
             <div className='pokemon-info-wrapper'>
               <div>
                 <p>Abilities</p>
