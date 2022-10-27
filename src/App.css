@@ -11,7 +11,7 @@ body {
     rgb(167, 202, 10) 0%,
     rgb(255, 3, 213) 100%
   );
-  font-family: "Pokemon Solid", sans-serif;
+  font-family: "Pokemon Solid", sans-serif !important;
   letter-spacing: 2px;
   text-align: center;
 }
