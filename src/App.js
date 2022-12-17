@@ -78,8 +78,7 @@ const App = () => {
           return (
             <div key={pokemon.name} className="pokemon-card" onClick={() => handlePokemonPopup(pokemon)}>
               <h3>{pokemon.name.toLocaleUpperCase()}</h3>
-              <img src={`https://pokeres.bastionbot.org/images/pokemon/${(currentPage - 1) * 15 + index + 1}.png`} alt={pokemon.name} />
-            </div>
+              <img src={`https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/${(currentPage - 1) * 15 + index + 1}.png?raw=true`} alt={pokemon.name} />            </div>
           )
         })}
       </div>
@@ -100,7 +99,7 @@ const App = () => {
           :
           <div className='pokemon-details-wrapper'>
             <h2>{pokemonDetails.name.toLocaleUpperCase()}</h2>
-            <img src={pokemonDetails.sprites.front_default} alt={pokemonDetails.name}/>
+            <img src={pokemonDetails.sprites.front_default} alt={pokemonDetails.name} />
             <div className='pokemon-info-wrapper'>
               <div>
                 <p>Abilities</p>
